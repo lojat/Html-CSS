@@ -1,0 +1,17 @@
+h1{
+    color:crimson;
+    text-align: center;
+    margin-top: 4%;
+}
+p{
+    color:brown;
+    text-align: center;
+}
+.main{
+    background-color: rgb(57, 253, 253);
+    padding: auto;
+    margin: 3%;
+}
+.body{
+    background-image: url("https://img.freepik.com/free-photo/person-working-html-computer_23-2150038860.jpg?t=st=1720592928~exp=1720596528~hmac=9550e41207e3ba7f09504f9c263bc479fa3ce67d733460228db9c684b2109bef&w=740");
+}
