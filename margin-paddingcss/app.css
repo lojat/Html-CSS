@@ -1,0 +1,37 @@
+.frame{
+    border: 50px solid greenyellow;
+    width: 500px;
+    margin: 20px;
+    padding: 30px ;
+}
+.all{
+    width: 500;
+    height: 500px;
+    background-color: green;
+    padding: 10px;
+    overflow: hidden;
+    filter:blur(2px);
+}
+.one{
+    background-color: aqua;
+    width: 450px;
+    height: 160px;
+    margin:10px auto;
+    box-shadow: 0 0 3px 3px greenyellow;
+}
+.two{
+    background-color: azure;
+    width: 450px;
+    height: 150px;
+    margin: 10px auto;
+    border-radius: 20%;
+}
+.three{
+    background-color: aquamarine;
+    height: 160px;
+    width: 450px;
+    margin: 10px auto;
+}
+h1{
+    color: red;
+}
