@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="=en">
+
+<head>
+    <title>HTML & CSS</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <!--Header Tag-->
+    <h2 id="heading">Header Tag: </h2>
+    <p id="subheading">Always used top of the page</p>
+    <header class="header">
+        <h1>This is within header Tag</h1>
+    </header>
+    <div class="line"></div>
+
+    <!--navigation and linking-->
+    <h2 id="heading">Navigayion & Linking:</h2>
+    <nv>
+        <ul>
+            <li><a href="#home" target="_parent">home</a></li>
+            <li><a href="#service" target="_blank">service</a></li>
+            <li><a href="#about" target="_top">about</a></li>
+        </ul>
+    </nv>
+    <div class="line"></div>
+
+    <!--Main tag-->
+    <h2 id="heading">Main </h2>
+    <p id="subheading">main contain that are not repeated in web page are within main</p>
+    <main class="main">
+        <article id="article">
+            <h4>HTML</h4>
+            <p>Html is stand for hyper text markup language.</p>
+        </article>
+        <aside id="aside">
+            <h4>CSS</h4>
+            <p>CSS stand for cas cading stylesheet</p>
+        </aside>
+    </main>
+    <div class="line"></div>
+
+    <!--text formating by strong, em, subscript, u etc.-->
+    </div>
+    <h2 class="heading">Text Formating: </h2>
+    <p>Strong <strong>Strong</strong> </p><br>
+    <p>Italic <em>italic</em> </p><br>
+    <p>Underline <u>underline</u></p><br>
+    <p>SubScript <sub>subscript</sub></p><br>
+    <blockquote>
+        <p>block quoted text</p>
+    </blockquote>
+    <p>Hello this is hr
+        <br> tag
+    </p>
+    <div class="line"></div>
+
+    <!--media tag like image, video, audio etc.-->
+    <h2 id="heading">Media Tag:</h2>
+    <p id="subheading">Image:</p>
+
+    <img src="https://img.freepik.com/free-vector/hand-drawn-streetwear-illustration_23-2151215337.jpg?t=st=1721718949~exp=1721722549~hmac=0430291bbf136fabd950a8105e4af37a3ebfb8c59db1708f859914f0ff73613b&w=740"
+        alt="image"><br>
+
+    <p id="subheading">Audio:</p>
+
+    <audio controls>
+        <source src="https://dl.prokerala.com/downloads/ringtones/files/mp3/nadaaniyan-63229.mp3" type="audio/mpeg">
+    </audio><br>
+
+    <p id="subheading">Video:</p>
+
+    <video controls>
+        <source src="video.mp4" type="video/mp4">
+    </video><br>
+
+    <p id="subheading">another Web Page: </p>
+    <iframe src="/catPhoto.html"></iframe>
+    <div class="line"></div>
+
+    <!--Form Tag-->
+    <h2 id="heading">Form:</h2>
+    <form action="mailto: lokeshjatav1998lj@gmail.com" method="post" enctype="text/plain">
+        <label for="username">Username: </label>
+        <input type="text" id="username" name="username"><br>
+
+        <p>Gender: </p>
+        <input type="radio" id="male" name="gender" checked>
+        <label for="male">male: </label><br>
+        <input type="radio" id="female" name="gender">
+        <label for="female">Female: </label><br><br>
+
+        <label for="password">Password: </label>
+        <input type="password" name="password"><br>
+
+        <p>Languages known: </p>
+        <input type="checkbox" id="hindi" name="Languages" checked>
+        <label for="hindi"> Hindi</label>
+        <input type="checkbox" name="english" id="english">
+        <label for="english"> English</label>
+        <input type="checkbox" name="sanskrit" id="sanskrit">
+        <label for="sanskrit">Sanskrit</label><br><br>
+
+        <label for="email">Email: </label>
+        <input type="email" id="email" name="email"><br><br>
+
+        <label for="select">Select Option</label>
+        <select id="status" name="status">
+            <option value="married">Married</option>
+            <option value="unmarried">Unmarried</option>
+        </select><br><br>
+
+        <input type="submit" value="Submit">
+    </form>
+    <div class="line">
+        </dev>
+
+        <!--Figure& Figure Caption-->
+        <h2 id="heading">Figure & Figure Caption:</h2>
+        <figure>
+            <img src="https://img-cdn.pixlr.com/image-generator/history/669f7caba29f9bf9de08e0d0/82327a2c-56b9-481c-af9b-b7326b696b06/preview.webp"
+                alt="Trulli">
+            <figcaption>Fig.1 - Trulli, Puglia, Italy.</figcaption>
+        </figure>
+        <div class="line"></div>
+
+        <!--List-->
+        <h2 id="subheading">List:</h2>
+        <p id="subheading">Ordered List:</p>
+        <ol>
+            <li>Java</li>
+            <li>Python</li>
+            <li>C/C++</li>
+        </ol><br>
+
+        <p id="subheading">Unordered List</p>
+        <ul>
+            <li>Html</li>
+            <li>Css</li>
+            <li>javascript</li>
+        </ul><br>
+
+        <p id="subheading">Discription List:</p>
+        <dl>
+            <dt>first name</dt>
+            <dd>-lokesh</dd>
+            <dt>last name</dt>
+            <dd>-jatav</dd>
+        </dl><br>
+        <div class="line"></div>
+
+        <!--Tables-->
+        <h2 id="heading">Table:</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>HTML</th>
+                    <th>CSS</th>
+                    <th>JavaScript</th>
+                </tr>
+            </thead>
+
+            <tbody>
+                <tr>
+                    <td>web dody</td>
+                    <td>web styling</td>
+                    <td>web functinality</td>
+                </tr>
+                <tr>
+                    <td>hyper text markup Language.</td>
+                    <td>cascading style sheet.</td>
+                    <td>javascript.</td>
+                </tr>
+            </tbody>
+        </table>
+        <div class="line"></div>
+
+        <!--Semantic Structure tags header,footer, main, nav etc.-->
+
+        <!--Interactive Elements-->
+        <h2 id="heading">Interective Elements</h2>
+        <!--details and summary tag are creates a disclosure widgets to show/hide content.-->
+        <p id="subheading">Details & Summary tag:</p>
+        <details>
+            <summary>Click to view</summary>
+            <p>Hidden content For you.</p>
+            <summary>again click</summary>
+            <h6>also same things</h6>
+        </details><br>
+
+        <p id="subheading">Dialog: </p>
+        <dialog open>
+            <p>close dialog content</p>
+            <button>Close</button>
+        </dialog><br>
+
+        <p id="subheading">Progress: </p>
+        <progress value="59" max="100"></progress><br>
+
+        <p id="subheading">Meter:</p>
+        <meter value="6" min="0" max="10">6 out of 10</meter>
+        <div class="line"></div>
+
+        <!--Footer Tag-->
+        <h2 id="heading">Footer tag:</h2>
+        <footer>
+            <p>footer is always bottom of the web page</p>
+            <h3>get code on <a href="" target="_blank">Git</a></h3>
+        </footer>
+</body>
+
+</html>
