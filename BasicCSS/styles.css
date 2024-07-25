@@ -1,0 +1,36 @@
+*{
+    color: black;
+}
+
+#body{
+    /*     
+    background-image: url("https://img.freepik.com/premium-photo/city-middle-blue-sky_967785-99236.jpg?w=360");
+    background-repeat: repeat-x;
+    background-attachment:fixed;
+*/
+
+background: repeat-x fixed;   
+}
+
+#header{
+    background-color: black;
+    height: 50px;
+}
+
+#nav{
+    display: flex;
+    float: inline-end;
+    margin-top: 28px;
+    margin-right: 5px;
+}
+
+#nav a{
+    font-size: auto;
+    margin-right: 10px;
+    color: white; 
+}
+
+p{
+    text-align: left;
+    color: brown;
+} 

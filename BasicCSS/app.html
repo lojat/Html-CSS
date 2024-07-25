@@ -1,0 +1,88 @@
+<!Doctype html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Basic CSS</title>
+    <link href="styles.css" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<body id="body">
+    <header id="header">
+        <nav id="nav">
+            <a href="#home" id="home">Home</a>
+            <a href="#services" id="services">Services</a>
+            <a href="#career" id="career">Career</a>
+            <a href="#about" id="about">About</a>
+        </nav>
+    </header>
+
+    <h1>Welcome to CSS</h1>
+    <p>Desihing web page with css</p>
+    <hr>
+
+    <div class="colors">
+
+        <h2 class="heading">Colors: </h2>
+
+        <div class="rgb">
+            <p class="subheading">RGB: by rgb(red, green, blue)</p>
+            <pre class="pre">
+            <span style="color: rgb(255,0,0);">This is Full red and remaining 0</span>
+            <span style="color: rgb(0,255,0);">This is Full green and remaining 0</span>
+            <span style="color: rgb(0,0,255);">This is Full blue and remaining 0</span>
+        </pre>
+        </div>
+
+        <div class="rgba">
+            <p class="subheading">RGBA: by rgba(red, green, blue, alpha) Alpha is used to color transparanccr from 0 to
+                1</p>
+            <pre class="pre">
+            <span style="color: rgba(255,0,0,0.2);">This is Full red and remaining 0 with 0.2 alpha</span>
+            <span style="color: rgb(0,255,0,.5);">This is Full green and remaining 0 with 0.5 alpha</span>
+            <span style="color: rgb(0,0,255,1);">This is Full blue and remaining 0 with 1 alpha</span>
+        </pre>
+        </div>
+
+        <div class="hsl">
+            <p class="subheading">HSL: hsl(hue, saturation, lightness)</p>
+            <pre class="pre">
+                <span style="color: hsl(0,0%,100%);">Hue: 0, Saturation: 0% & lightness: 100%</span>
+                <span style="color: hsl(120,50%,50%);">Hue: 120, Saturation: 50% & lightness: 50%</span>
+                <span style="color: hsl(240,100%,0%);">Hue: 240, Saturation: 100% & lightness: 0%</span>
+            </pre>
+        </div>
+
+        <div class="hsla">
+            <p class="subheading">HSLA: hsla(hue, saturation, lightness,Alpha)</p>
+            <pre class="pre">
+                    <span style="color: hsla(0,0%,100%,0.2);">Hue: 0, Saturation: 0% & lightness: 100%, Alpha: 0.2</span>
+                    <span style="color: hsla(120,50%,50%,0.5);">Hue: 120, Saturation: 50% & lightness: 50%, Alpha:0.5</span>
+                    <span style="color: hsla(240,100%,0%,1);">Hue: 240, Saturation: 100% & lightness: 0%, Alpha: 1</span>
+                </pre>
+        </div>
+    </div>
+    <hr>
+
+    <div class="backgroud">
+        <h2 class="heading">Backgound Properties:</h2>
+
+        <div class="backcolor">
+        <p>backgroud-color: </p>
+        <h1 style="background-color: gold;">This is backgroud-color</h1>
+        </div>
+
+        <div class="backimage">
+            <p>backgroud-image: </p>
+            <h1 style="background-image: url(https://images.immediate.co.uk/production/volatile/sites/10/2023/06/2048x1365-Oak-trees-SEO-GettyImages-90590330-b6bfe8b.jpg?quality=90&webp=true&resize=556,371) ;">This is backgroud-image</h1>
+        </div>
+
+    </div>
+
+    <footer>
+
+    </footer>
+</body>
+
+</html>

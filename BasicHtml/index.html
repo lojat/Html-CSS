@@ -4,19 +4,20 @@
 <head>
     <title>HTML & CSS</title>
     <link rel="stylesheet" href="styles.css">
+    <meta charset="utf-8">
 </head>
 
-<body>
+<body class="body">
     <!--Header Tag-->
-    <h2 id="heading">Header Tag: </h2>
-    <p id="subheading">Always used top of the page</p>
+    <h2 class="heading">Header Tag: </h2>
+    <p class="subheading">Always used top of the page</p>
     <header class="header">
         <h1>This is within header Tag</h1>
     </header>
     <div class="line"></div>
 
     <!--navigation and linking-->
-    <h2 id="heading">Navigayion & Linking:</h2>
+    <h2 class="heading">Navigayion & Linking:</h2>
     <nv>
         <ul>
             <li><a href="#home" target="_parent">home</a></li>
@@ -27,8 +28,8 @@
     <div class="line"></div>
 
     <!--Main tag-->
-    <h2 id="heading">Main </h2>
-    <p id="subheading">main contain that are not repeated in web page are within main</p>
+    <h2 class="heading">Main </h2>
+    <p class="subheading">main contain that are not repeated in web page are within main</p>
     <main class="main">
         <article id="article">
             <h4>HTML</h4>
@@ -39,6 +40,10 @@
             <p>CSS stand for cas cading stylesheet</p>
         </aside>
     </main>
+    <div class="line"></div>
+
+    <!--Heading, paragraph elemets-->
+    <h2 class="heading">Headings:</h2>
     <div class="line"></div>
 
     <!--text formating by strong, em, subscript, u etc.-->
@@ -57,30 +62,30 @@
     <div class="line"></div>
 
     <!--media tag like image, video, audio etc.-->
-    <h2 id="heading">Media Tag:</h2>
-    <p id="subheading">Image:</p>
+    <h2 class="heading">Media Tag:</h2>
+    <p class="subheading">Image:</p>
 
     <img src="https://img.freepik.com/free-vector/hand-drawn-streetwear-illustration_23-2151215337.jpg?t=st=1721718949~exp=1721722549~hmac=0430291bbf136fabd950a8105e4af37a3ebfb8c59db1708f859914f0ff73613b&w=740"
         alt="image"><br>
 
-    <p id="subheading">Audio:</p>
+    <p class="subheading">Audio:</p>
 
     <audio controls>
         <source src="https://dl.prokerala.com/downloads/ringtones/files/mp3/nadaaniyan-63229.mp3" type="audio/mpeg">
     </audio><br>
 
-    <p id="subheading">Video:</p>
+    <p class="subheading">Video:</p>
 
     <video controls>
         <source src="video.mp4" type="video/mp4">
     </video><br>
 
-    <p id="subheading">another Web Page: </p>
+    <p class="subheading">another Web Page: </p>
     <iframe src="/catPhoto.html"></iframe>
     <div class="line"></div>
 
     <!--Form Tag-->
-    <h2 id="heading">Form:</h2>
+    <h2 class="heading">Form:</h2>
     <form action="mailto: lokeshjatav1998lj@gmail.com" method="post" enctype="text/plain">
         <label for="username">Username: </label>
         <input type="text" id="username" name="username"><br>
@@ -117,7 +122,7 @@
         </dev>
 
         <!--Figure& Figure Caption-->
-        <h2 id="heading">Figure & Figure Caption:</h2>
+        <h2 class="heading">Figure & Figure Caption:</h2>
         <figure>
             <img src="https://img-cdn.pixlr.com/image-generator/history/669f7caba29f9bf9de08e0d0/82327a2c-56b9-481c-af9b-b7326b696b06/preview.webp"
                 alt="Trulli">
@@ -126,22 +131,22 @@
         <div class="line"></div>
 
         <!--List-->
-        <h2 id="subheading">List:</h2>
-        <p id="subheading">Ordered List:</p>
+        <h2 class="heading">List:</h2>
+        <p class="subheading">Ordered List:</p>
         <ol>
             <li>Java</li>
             <li>Python</li>
             <li>C/C++</li>
         </ol><br>
 
-        <p id="subheading">Unordered List</p>
+        <p class="subheading">Unordered List</p>
         <ul>
             <li>Html</li>
             <li>Css</li>
             <li>javascript</li>
         </ul><br>
 
-        <p id="subheading">Discription List:</p>
+        <p class="subheading">Discription List:</p>
         <dl>
             <dt>first name</dt>
             <dd>-lokesh</dd>
@@ -151,7 +156,7 @@
         <div class="line"></div>
 
         <!--Tables-->
-        <h2 id="heading">Table:</h2>
+        <h2 class="heading">Table:</h2>
         <table>
             <thead>
                 <tr>
@@ -179,9 +184,9 @@
         <!--Semantic Structure tags header,footer, main, nav etc.-->
 
         <!--Interactive Elements-->
-        <h2 id="heading">Interective Elements</h2>
+        <h2 class="heading">Interective Elements</h2>
         <!--details and summary tag are creates a disclosure widgets to show/hide content.-->
-        <p id="subheading">Details & Summary tag:</p>
+        <p class="subheading">Details & Summary tag:</p>
         <details>
             <summary>Click to view</summary>
             <p>Hidden content For you.</p>
@@ -189,21 +194,21 @@
             <h6>also same things</h6>
         </details><br>
 
-        <p id="subheading">Dialog: </p>
+        <p class="subheading">Dialog: </p>
         <dialog open>
             <p>close dialog content</p>
             <button>Close</button>
         </dialog><br>
 
-        <p id="subheading">Progress: </p>
+        <p class="subheading">Progress: </p>
         <progress value="59" max="100"></progress><br>
 
-        <p id="subheading">Meter:</p>
+        <p class="subheading">Meter:</p>
         <meter value="6" min="0" max="10">6 out of 10</meter>
         <div class="line"></div>
 
         <!--Footer Tag-->
-        <h2 id="heading">Footer tag:</h2>
+        <h2 class="heading">Footer tag:</h2>
         <footer>
             <p>footer is always bottom of the web page</p>
             <h3>get code on <a href="https://github.com/lojat/Html-CSS/tree/main/BasicHtml%26Css" target="_blank">Git</a></h3>
